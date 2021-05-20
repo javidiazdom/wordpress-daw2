@@ -1,0 +1,159 @@
+# Translation of Plugins - Google Ads &amp; Marketing by Kliken - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Google Ads &amp; Marketing by Kliken - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-17 16:47:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Google Ads &amp; Marketing by Kliken - Stable (latest release)\n"
+
+#: classes/class-plugin.php:273
+msgid "Google Ads & Marketing by Kliken requires WooCommerce to be activated"
+msgstr "Google Ads & Marketing by Kliken erfordert, dass WooCommerce aktiviert ist"
+
+#. Plugin Name of the plugin
+#: pages/dashboard.php:13 pages/getstarted.php:28
+#: classes/class-wc-integration.php:25
+msgid "Google Ads & Marketing by Kliken"
+msgstr "Google Ads & Marketing by Kliken"
+
+#: pages/getstarted.php:51
+msgid "Get Started"
+msgstr "Anfangen"
+
+#: pages/dashboard.php:72
+msgid "Authorize API Access"
+msgstr "API-Zugriff autorisieren"
+
+#: pages/dashboard.php:68
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: pages/dashboard.php:67
+msgid "Enable Edit"
+msgstr "Bearbeiten aktivieren"
+
+#: pages/dashboard.php:56
+msgid "Advanced Options"
+msgstr "Erweiterte Optionen"
+
+#: pages/dashboard.php:48
+msgid "Manage Campaigns"
+msgstr "Kampagnen verwalten"
+
+#: pages/dashboard.php:34
+msgid "Campaign Dashboard"
+msgstr "Kampagnen-Dashboard"
+
+#: classes/class-rest-misc-controller.php:63
+#: classes/class-rest-misc-controller.php:91
+msgid "Invalid Data"
+msgstr "Ungültige Daten"
+
+#: classes/class-wc-integration.php:63
+msgid "What are these options?"
+msgstr "Welche Möglichkeiten gibt es?"
+
+#: classes/class-wc-integration.php:57
+msgid "Google Verification Token"
+msgstr "Google-Verifizierungstoken"
+
+#: classes/class-wc-integration.php:52
+msgid "Application Token"
+msgstr "Anwendungstoken"
+
+#: classes/class-plugin.php:125
+msgid "Support"
+msgstr "Support"
+
+#: classes/class-plugin.php:122
+msgid "Dashboard"
+msgstr "Übersicht"
+
+#. Author URI of the plugin
+msgid "http://kliken.com/"
+msgstr "http://kliken.com/"
+
+#. Author of the plugin
+msgid "Kliken"
+msgstr "Kliken"
+
+#: pages/getstarted.php:45
+msgid "Find more customers on Google"
+msgstr "Finde mehr Kunden auf Google"
+
+#: pages/getstarted.php:47
+msgid "Keep your marketing and store in sync"
+msgstr "Stimme dein Marketing und deinen Shop immer aufeinander ab"
+
+#: classes/class-wc-integration.php:47
+msgid "Account Id"
+msgstr "Account-ID"
+
+#. Plugin URI of the plugin
+msgid "https://woo.kliken.com/"
+msgstr "https://woo.kliken.com/"
+
+#: pages/getstarted.php:46
+msgid "Automate bidding to maximize sales for your marketing budget"
+msgstr "Automatisiere die Gebotsabgabe, um den Umsatz mit deinem Marketingbudget zu maximieren"
+
+#: pages/dashboard.php:43
+msgid "Build a campaign in a few minutes, and sell to customers as they search for your products on Google."
+msgstr "Stelle in Minutenschnelle eine Kampagne zusammen und verkaufe an Kunden, die von dir angebotene Produkte auf Google suchen."
+
+#: pages/dashboard.php:41
+msgid "Create a New Google Shopping Campaign"
+msgstr "Erstelle eine neue Google-Shopping-Kampagne"
+
+#: pages/getstarted.php:48
+msgid "Create perfect shopping campaigns in minutes"
+msgstr "Erstelle in wenigen Minuten perfekte Shoppingkampagnen"
+
+#: pages/getstarted.php:41
+msgid "Increase sales and revenue with Google Shopping Ads"
+msgstr "Steigere deinen Umsatz und deine Einnahmen mit Google Shopping Anzeigen"
+
+#: pages/getstarted.php:30
+msgid "Launch Google Shopping Ads and get your products found online easily."
+msgstr "Veröffentliche Google-Shopping-Anzeigen, damit deine Produkte online leicht zu finden sind."
+
+#: pages/dashboard.php:15
+msgid "Launch Google Shopping ads and get your products found online easily."
+msgstr "Veröffentliche Google-Shopping-Anzeigen, damit deine Produkte online leicht zu finden sind."
+
+#: pages/dashboard.php:50
+msgid "Make changes to your active campaigns, purchase one you built, or reinstate your cancelled campaigns."
+msgstr "Bearbeite aktive, buche erstellte oder starte abgebrochene Kampagnen neu."
+
+#: pages/dashboard.php:36
+msgid "Open your dashboard to review your campaign's performance"
+msgstr "Öffne dein Dashboard, um festzustellen, wie deine Kampagne abschneidet"
+
+#: classes/class-rest-misc-controller.php:128
+msgid "Sorry, you cannot list resources."
+msgstr "Leider kannst du keine Quellen aufführen."
+
+#. Description of the plugin
+msgid "The automated Google Shopping solution to get your products found on Google, and grow your WooCommerce Store!"
+msgstr "Die automatisierte Lösung für Google Shopping, mit der deine Produkte auf Google gefunden werden und du deinen WooCommerce-Store ausbauen kannst!"
+
+#: classes/class-plugin.php:208
+msgid "This will dismiss the message permanently. Are you sure?"
+msgstr "Hierdurch wird die Nachricht endgültig ausgeblendet. Bist du dir sicher?"
+
+#: pages/getstarted.php:43
+msgid "Use this WooCommerce and Google Ads integration to:"
+msgstr "Verwende diese WooCommerce- und Google Ads-Integration und:"
+
+#: pages/dashboard.php:28
+msgid "Your WooCommerce store is connected to your Kliken account."
+msgstr "Dein WooCommerce-Shop ist mit deinem Kliken-Konto verbunden."
+
+#: pages/dashboard.php:26
+msgid "Your store is connected."
+msgstr "Dein Shop ist verbunden."

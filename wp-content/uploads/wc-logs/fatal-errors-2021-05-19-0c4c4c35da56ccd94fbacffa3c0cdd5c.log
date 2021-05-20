@@ -1,0 +1,10 @@
+2021-05-19T10:51:41+00:00 CRITICAL Uncaught Error: Call to a member function needs_shipping() on bool in /var/www/html/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1532
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/woocommerce/includes/gateways/cod/class-wc-gateway-cod.php(128): WC_Cart->needs_shipping()
+#1 /var/www/html/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(151): WC_Gateway_COD->is_available()
+#2 /var/www/html/wordpress/wp-content/plugins/woocommerce/includes/wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#3 /var/www/html/wordpress/wp-content/themes/shoper/inc/class/class-header.php(172): wc_get_account_menu_items()
+#4 /var/www/html/wordpress/wp-content/themes/shoper/inc/class/class-header.php(87): shoper_Header_Layout->get_site_header_icon()
+#5 /var/www/html/wordpress/wp-includes/class-wp-hook.php(292): shoper_Header_Layout->site_header_layout()
+#6 /var/www/html/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filte in /var/www/html/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1532
+

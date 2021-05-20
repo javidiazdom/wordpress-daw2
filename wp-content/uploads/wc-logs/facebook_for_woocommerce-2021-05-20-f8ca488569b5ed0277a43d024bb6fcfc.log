@@ -1,0 +1,6 @@
+05-20-2021 @ 10:33:49 - Starting upgrade to v2.5.0
+05-20-2021 @ 10:33:49 - Upgrade to v2.5.0 complete
+05-20-2021 @ 10:45:42 - There was an error trying sync products using the Catalog Batch API for job 816930eed0596924d640425d789e8a6b: No se puede crear la instancia de la API porque falta el token de acceso.
+05-20-2021 @ 10:48:22 - There was an error trying sync products using the Catalog Batch API for job af1c7359b491874f3f77c73b95d5e1b9: No se puede crear la instancia de la API porque falta el token de acceso.
+05-20-2021 @ 10:50:19 - There was an error trying sync products using the Catalog Batch API for job c4ab1ec2abece4f4715cc907b83cc952: No se puede crear la instancia de la API porque falta el token de acceso.
+05-20-2021 @ 10:52:17 - There was an error trying sync products using the Catalog Batch API for job 20016bdc4bc9641a630d2b2218d4411d: No se puede crear la instancia de la API porque falta el token de acceso.

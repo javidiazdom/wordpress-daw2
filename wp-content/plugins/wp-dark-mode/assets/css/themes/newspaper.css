@@ -1,0 +1,12 @@
+.wp-dark-mode-switcher {
+  z-index: 9999; }
+
+html.wp-dark-mode-active .td-module-meta-info {
+  background-color: transparent; }
+  html.wp-dark-mode-active .td-module-meta-info .td-module-title a, html.wp-dark-mode-active .td-module-meta-info .td-post-author-name a {
+    color: var(--wp-dark-mode-link); }
+
+html.wp-dark-mode-active .td-social-sharing-button {
+  border: 1px solid; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRoZW1lcy9uZXdzcGFwZXIuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQWEsRUFBQTs7QUFHZjtFQUVJLDZCQUE2QixFQUFBO0VBRmpDO0lBTVEsK0JBQStCLEVBQUE7O0FBTnZDO0VBWUksaUJBQWlCLEVBQUEiLCJmaWxlIjoidGhlbWVzL25ld3NwYXBlci5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIud3AtZGFyay1tb2RlLXN3aXRjaGVye1xyXG4gIHotaW5kZXg6IDk5OTk7XHJcbn1cclxuXHJcbmh0bWwud3AtZGFyay1tb2RlLWFjdGl2ZSB7XHJcbiAgLnRkLW1vZHVsZS1tZXRhLWluZm97XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuXHJcbiAgICAudGQtbW9kdWxlLXRpdGxlLCAudGQtcG9zdC1hdXRob3ItbmFtZXtcclxuICAgICAgYSB7XHJcbiAgICAgICAgY29sb3I6IHZhcigtLXdwLWRhcmstbW9kZS1saW5rKTtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLnRkLXNvY2lhbC1zaGFyaW5nLWJ1dHRvbntcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkO1xyXG4gIH1cclxufSJdfQ== */

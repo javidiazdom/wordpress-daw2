@@ -1,0 +1,7 @@
+html.wp-dark-mode-active .testimonial-item, html.wp-dark-mode-active .team-container, html.wp-dark-mode-active .dt_portfolio {
+  border: 1px solid; }
+
+html.wp-dark-mode-active .cart_list a {
+  color: var(--wp-dark-mode-text) !important; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRoZW1lcy90aGU3LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFFSSxpQkFBaUIsRUFBQTs7QUFGckI7RUFPTSwwQ0FBMEMsRUFBQSIsImZpbGUiOiJ0aGVtZXMvdGhlNy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJodG1sLndwLWRhcmstbW9kZS1hY3RpdmUge1xyXG4gIC50ZXN0aW1vbmlhbC1pdGVtLCAudGVhbS1jb250YWluZXIsIC5kdF9wb3J0Zm9saW8ge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQ7XHJcbiAgfVxyXG5cclxuICAuY2FydF9saXN0e1xyXG4gICAgYXtcclxuICAgICAgY29sb3I6IHZhcigtLXdwLWRhcmstbW9kZS10ZXh0KSAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gIH1cclxufSJdfQ== */
