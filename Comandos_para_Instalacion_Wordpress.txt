@@ -1,0 +1,156 @@
+INSTALACION WORDPRESS PARA CENTOS7 Y CENTOS8
+
+1. PASOS PREVIOS ANTES DE INSTALAR LAMP(NECESARIO)
+	1.1. Configurar repositorios EPEL (los repositorios de CENTOS solo ofrecen PHP hasta 5.4.16 obsoleta) ==> De ahí el fallo que me daba
+		yum -y install epel-release yum-utils
+	1.2. Configurar los repositorios para PHP
+		#Repositorio con las versiones actualizadas de PHP (Importante)
+			yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+		#Habilitamos la version 7.4 (estable)
+			yum-config-manager --enable remi-php74 ==> Importante
+	1.3. Configurar los repositorios para MariaDB
+		#Añadimos version estable de MariaDB
+			nano /etc/yum.repos.d/mariadb-10.5.repo
+		#Añadimos lo siguiente:
+			[mariadb]
+			name = MariaDB
+			baseurl = http://yum.mariadb.org/10.5/centos7-amd64
+			gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+			gpgcheck=1
+	1.4. Actualizamos los repositorios
+			yum update -y
+
+2. INSTALAR Y CONFIGURAR SERVIDOR LAMP(SIN ESTO NO SE PUEDE TENER WORDPRESS)
+	2.1. Instalamos y arrancamos los servicios necesarios para LAMP
+		yum -y install httpd mariadb-server php php-mysqlnd
+		#Arrancamos y habilitamos los servicios
+			systemctl enable httpd mariadb --> Deja el servicio activado para el arranque
+			systemctl start httpd mariadb -->Inicia el servicio
+	2.2. Ajustes del firewall (permite conectar desde otras maquinas)
+		#Añadimos excepción para el servicio HTTP
+			firewall-cmd --permanent --zone=public --add-service=http
+		#Otra excepción para el servicio HTTPS
+			firewall-cmd --permanent --zone=public --add-service=https
+		#Recargamos para hacer los cambios anteriores
+			firewall-cmd --reload
+	2.3. Configuración APACHE
+		#Editamos el httpd.conf para darle nombre al servidor
+			(editor que queramos)nano,vi,gedit /etc/httpd/conf/httpd.conf
+		#En la directiva ServerName establecemos nuestro nombre de servidor
+			ServerName centos7.local.lan:80
+		#Recargamos el servicio para hacer efectivos los cambios
+			systemctl reload httpd
+	2.4. Servicio de base de datos
+		#Ejecutamos el script siguiente para hacer segura la instalación MariaDB
+		#De esta manera nos permite crear contraseña para root, eliminar usuarios anónimos, desactivar acceso remoto...
+			mysql_secure_installation
+	2.5. PHP
+		#Editamos el fichero de configuración
+			nano /etc/php.ini
+		#Para un server situado en España podemos añadir lo siguiente:
+			[Date]
+			; Defines the default timezone used by the date functions
+			; http://php.net/date.timezone
+			date.timezone = Europe/Madrid
+			.
+			.
+			.
+			error_reporting = E_ALL
+			.
+			.
+			.
+			display_errors = On
+			.
+			.
+			.
+			display_startup_errors = On
+			.
+			.
+			.
+		#La gran parte de las opciones anteriores vienen activadas por defecto otras no
+	2.6. RECARGAR TODA LA CONFIGURACION
+			systemctl reload httpd
+	2.7. Probar la pila LAMP
+		#Editamos el siguiente archivo
+			nano /var/www/html/info.php
+		#Ponemos la siguiente linea
+		<?php phpinfo();
+		#Guardamos los cambios
+	2.8. Ahora accedemos a través de navegador a: localhost/info.php y nos saldrá toda la información de nuestro servidor
+
+3. ANTES DE INSTALAR WORDPRESS
+	#Ejecutar e instalar los paquetes necesarios
+		yum update
+		yum install -y policycoreutils-python wget
+4. DESCARGAR WORDPRESS
+		wget https://es.wordpress.org/latest-es_ES.tar.gz
+5. INSTALAR WORDPRESS
+	5.1. Instalamos WordPress
+		#Descomprimimos el archivo descargado en la carpeta correspondiente
+			tar xf latest-es_ES.tar.gz -C /var/www/html/
+	5.2. Creaamos una base de datos y usuario en WordPress
+		#Crear DB (La password es la anteriormente escrita en el paso 2.4)
+			mysql -u root -p	
+			> create database wordpress charset utf8mb4 collate utf8mb4_unicode_ci;
+			> create user wordpress@localhost identified by 'XXXXXXXX';
+			> create user wordpress@localhost identified with mysql_native_password by 'XXXXXXXX';
+			> grant all privileges on wordpress.* to wordpress@localhost;
+			> exit
+	5.3. Extensiones PHP necesarias
+			yum install -y php-bcmath php-gd php-mbstring php-mcrypt php-pecl-imagick php-xml php-zip
+		#Recargamos el servicio
+			systemctl reload httpd
+	5.4. configurar servidor web
+		#Editamos el fichero
+			nano /etc/httpd/conf.d/wordpress.conf
+		#Añadimos un bloque Directory para la ruta de instalación WordPress
+		<Directory /var/www/html/wordpress/>
+        			AllowOverride All
+		</Directory>
+		#Recargamos el servicio
+			systemctl reload httpd
+	5.5. Configurar permisos de escritura para WordPress
+		#Hacemos que el directorio de instalación pertenezca a usuario apache para poder crear y modificar archivos durante la instalación 
+			chown -R apache:apache /var/www/html/wordpress/
+		#Permitimos permisos de escritura
+			chmod -R g+w /var/www/html/wordpress/
+		#Al instalar WordPress nos encontramos con que este sistema incorpora seguridad
+		#extendida SELinux. Esto implica que debemos cambiar el contexto del directorio de WordPress como escribible por el servidor Web
+		#DEFINIMOS EL NUEVO CONTEXTO
+			semanage fcontext -a -t httpd_sys_rw_content_t "/var/www/html/wordpress(/.*)?"
+		#Aplicamos los cambios
+			restorecon -R /var/www/html/wordpress/
+	5.6. Instalamos WordPress con el instalador Web
+		---Accedemos a: localhost/wordpress
+		---Picamos en "Vamos a Ello"
+		---Ponemos los datos de conexión a la base de datos que pusimos cuando la creamos
+		---Dejar el campo servidor de la base de datos y prefijo de la tabla por defecto
+		---Le damos a enviar, ejecutar la instalación 
+		---Ahora introducimos información básica del sitio web
+		---Le damos a instalar WordPress y terminamos la instalación
+		
+		
+		
+Páginas web usadas para la instalación de WordPress:
+	--https://comoinstalar.me/como-instalar-apache-en-centos-7/
+	--https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-centos-7-es
+	--https://blogdesistemas.com/instalar-apache-en-centos-7/
+	--https://comoinstalar.me/como-instalar-lamp-en-centos-7/
+	--https://wpmailsmtp.com/docs/how-to-set-up-the-gmail-mailer-in-wp-mail-smtp/#create-app
+    --https://comoinstalar.me/como-instalar-lamp-en-centos-7/ 
+	--https://comoinstalar.me/como-instalar-wordpress-en-centos-7/#Antes_de_instalar_WordPress_en_CentOS_7
+	
+Diferencia entre la instalación en Centos7 y Centos8:
+	Una gran diferencia que hay entre Centos7 y Centos8 es que el repositorio de centos7 solo ofrece PHP hasta la versión 5.4.16 que esta obsoleta.
+	Gracias a esta gran diferencia en Centos7 tenemos que cambiar bastantes cosas para que admita una versión de php 7 que es la que WordPress nos pide.
+	
+	De resto las dos instalaciones son iguales lo que en versiones de centos
+
+
+
+
+
+
+
+
+ 
