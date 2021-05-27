@@ -1,0 +1,468 @@
+# Translation of Plugins - Advanced Product Search For WooCommerce - Development (trunk) in German
+# This file is distributed under the same license as the Plugins - Advanced Product Search For WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-15 17:45:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Advanced Product Search For WooCommerce - Development (trunk)\n"
+
+#: advanced-product-search-for-woo.php:263
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/classes/classes-settings-api.php:179
+msgid "HOW TO USE Search Bar"
+msgstr "SO VERWENDET man die Suchleiste"
+
+#: includes/classes/classes-settings-api.php:180
+msgid "You can use as widgets, you will find inside widgets areas or you can use the shortcode [apsw_search_bar_preview]"
+msgstr "Du kannst sie als Widgets verwenden, du findest sie im Widgets-Bereich, oder du kannst den Shortcode [apsw_search_bar_preview] verwenden."
+
+#. Plugin Name of the plugin
+msgid "Advanced Product Search For WooCommerce"
+msgstr "Advanced Product Search For WooCommerce"
+
+#. Description of the plugin
+msgid "Advanced Product Search For woocommerce  – powerful & simple live search plugin for WooCommerce"
+msgstr "Advanced Product Search For WooCommerce – leistungsstarkes und einfaches Live-Such-Plugin für WooCommerce"
+
+#. Author of the plugin
+msgid "aThemeArt"
+msgstr "aThemeArt"
+
+#. Author URI of the plugin
+msgid "https://athemeart.com"
+msgstr "https://athemeart.com"
+
+#: includes/classes/classes-settings-api.php:44
+msgid "Search Form"
+msgstr "Suchformular"
+
+#: includes/classes/classes-settings-api.php:48
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: includes/classes/classes-settings-api.php:52
+msgid "Styling Options"
+msgstr "Styling-Optionen"
+
+#: includes/classes/classes-settings-api.php:77
+msgid "Text for search field"
+msgstr "Suchfeld-Text"
+
+#: includes/classes/classes-settings-api.php:78
+msgid "Text for search field placeholder."
+msgstr "Text für den Suchfeld-Platzhalter."
+
+#: includes/classes/classes-settings-api.php:87
+msgid "Text for search button"
+msgstr "Suchbutton-Text"
+
+#: includes/classes/classes-settings-api.php:88
+msgid "Text for search button text."
+msgstr "Text für den Suchbutton."
+
+#: includes/classes/classes-settings-api.php:97
+msgid "Search bar width"
+msgstr "Suchleisten-Breite"
+
+#: includes/classes/classes-settings-api.php:98
+msgid "maximum width of search bar."
+msgstr "Maximale Breite der Suchleiste."
+
+#: includes/classes/classes-settings-api.php:109
+msgid "Search bar height"
+msgstr "Suchleisten-Höhe"
+
+#: includes/classes/classes-settings-api.php:110
+msgid "maximum height of search bar."
+msgstr "Maximale Höhe der Suchleiste."
+
+#: includes/classes/classes-settings-api.php:121
+msgid "Minimum number of characters"
+msgstr "Mindestzeichenanzahl"
+
+#: includes/classes/classes-settings-api.php:122
+msgid "Minimum number of characters required to run ajax search."
+msgstr "Mindestanzahl von Zeichen, die für die Ajax-Suche erforderlich sind."
+
+#: includes/classes/classes-settings-api.php:133
+msgid "Show loader"
+msgstr "Ladeanimation"
+
+#: includes/classes/classes-settings-api.php:134
+msgid "Show loader animation while searching. "
+msgstr "Ladeanimation während der Suche anzeigen. "
+
+#: includes/classes/classes-settings-api.php:146
+msgid "Search Actions"
+msgstr "Suchaktionen"
+
+#: includes/classes/classes-settings-api.php:147
+#: includes/classes/classes-settings-api.php:161
+msgid "Show link to search results page at the bottom of search results block. "
+msgstr "Link zur Suchergebnis-Seite am unteren Rand des Suchergebnis-Blocks anzeigen. "
+
+#: includes/classes/classes-settings-api.php:150
+msgid "Both ajax search results and search results page"
+msgstr "Sowohl Ajax-Suchergebnisse als auch Suchergebnis-Seite"
+
+#: includes/classes/classes-settings-api.php:151
+msgid "Only ajax search results ( no search results page )"
+msgstr "Nur Ajax-Suchergebnisse (keine Suchergebnis-Seite)"
+
+#: includes/classes/classes-settings-api.php:152
+msgid "Only search results page ( no ajax search results )"
+msgstr "Nur Suchergebnis-Seite (keine Ajax-Suchergebnisse)"
+
+#: includes/classes/classes-settings-api.php:160
+msgid "Search Bar Style"
+msgstr "Suchleisten-Stil"
+
+#: includes/classes/classes-settings-api.php:193
+msgid "Description source"
+msgstr "Beschreibungs-Quelle"
+
+#: includes/classes/classes-settings-api.php:194
+msgid "From where to take product description.If first source is empty data will be taken from other sources. "
+msgstr "Woher die Produktbeschreibung genommen werden soll. Wenn die erste Quelle leer ist, werden die Daten aus anderen Quellen übernommen. "
+
+#: includes/classes/classes-settings-api.php:205
+msgid "Content length"
+msgstr "Inhaltslänge"
+
+#: includes/classes/classes-settings-api.php:206
+msgid "Maximal allowed number of words for product description."
+msgstr "Maximal zulässige Anzahl von Wörtern für die Produktbeschreibung."
+
+#: includes/classes/classes-settings-api.php:214
+msgid "Number of product"
+msgstr "Produktanzahl"
+
+#: includes/classes/classes-settings-api.php:215
+msgid "Maximum number of displayed search results. "
+msgstr "Maximale Anzahl der angezeigten Suchergebnisse. "
+
+#: includes/classes/classes-settings-api.php:223
+msgid "Nothing found text"
+msgstr "„Nichts gefunden“-Text"
+
+#: includes/classes/classes-settings-api.php:224
+#: includes/classes/classes-settings-api.php:232
+msgid "Text when there is no product found search results. ."
+msgstr "Text, wenn in den Suchergebnissen kein Produkt gefunden wird."
+
+#: includes/classes/classes-settings-api.php:231
+msgid "Nothing found text with category search"
+msgstr "„Nichts gefunden“-Text mit Kategorie-Suche"
+
+#: includes/classes/classes-settings-api.php:240
+msgid "View All Text"
+msgstr "„Alles anzeigen“-Text"
+
+#: includes/classes/classes-settings-api.php:241
+msgid "leave empty to hide the button."
+msgstr "Leer lassen, um den Button zu verbergen."
+
+#: includes/classes/classes-settings-api.php:251
+msgid "More Settings for search results. "
+msgstr "Weitere Einstellungen für Suchergebnisse:"
+
+#: includes/classes/classes-settings-api.php:257
+msgid "Show Product image"
+msgstr "Produktbild anzeigen"
+
+#: includes/classes/classes-settings-api.php:258
+msgid "Show product image for each search result."
+msgstr "Produktbild für jedes Suchergebnis anzeigen."
+
+#: includes/classes/classes-settings-api.php:270
+msgid "Show Product Description"
+msgstr "Produktbeschreibung anzeigen"
+
+#: includes/classes/classes-settings-api.php:271
+msgid "Show product description text. "
+msgstr "Text der Produktbeschreibung anzeigen. "
+
+#: includes/classes/classes-settings-api.php:283
+msgid "Show price"
+msgstr "Preis anzeigen"
+
+#: includes/classes/classes-settings-api.php:284
+msgid "Show product price for each search result."
+msgstr "Produktpreis für jedes Suchergebnis anzeigen."
+
+#: includes/classes/classes-settings-api.php:296
+msgid "Show Rating"
+msgstr "Bewertung anzeigen"
+
+#: includes/classes/classes-settings-api.php:297
+msgid "Show product Rating for each search result."
+msgstr "Produktbewertung für jedes Suchergebnis anzeigen."
+
+#: includes/classes/classes-settings-api.php:309
+msgid "Show product category"
+msgstr "Produktkategorie anzeigen"
+
+#: includes/classes/classes-settings-api.php:310
+msgid "Show product category for each search result."
+msgstr "Produktkategorie für jedes Suchergebnis anzeigen."
+
+#: includes/classes/classes-settings-api.php:322
+msgid "Show product sku"
+msgstr "Produkt-SKU anzeigen"
+
+#: includes/classes/classes-settings-api.php:323
+msgid "Show product sku for each search result."
+msgstr "Produkt-SKU für jedes Suchergebnis anzeigen."
+
+#: includes/classes/classes-settings-api.php:334
+msgid "Show stock status"
+msgstr "Lagerstatus anzeigen"
+
+#: includes/classes/classes-settings-api.php:335
+msgid "Show product price for stock status products."
+msgstr "Produktpreis für Produkte mit Lagerstatus anzeigen."
+
+#: includes/classes/classes-settings-api.php:347
+msgid "Active Feature "
+msgstr "Hervorgehobene Produkte "
+
+#: includes/classes/classes-settings-api.php:348
+msgid "will active green color each Feature product."
+msgstr "Wenn aktiv, wird jedes hervorgehobene Produkt grün hervorgehoben."
+
+#: includes/classes/classes-settings-api.php:360
+msgid "Show On Sale"
+msgstr "„Im Angebot“ anzeigen"
+
+#: includes/classes/classes-settings-api.php:361
+msgid "Show product On Sale status products."
+msgstr "„Im Angebot“-Produktstatus für Produkte anzeigen."
+
+#: includes/classes/classes-settings-api.php:378
+msgid "Search Bar background"
+msgstr "Suchleisten-Hintergrund"
+
+#: includes/classes/classes-settings-api.php:387
+msgid "Search Bar border"
+msgstr "Suchleisten-Rahmen"
+
+#: includes/classes/classes-settings-api.php:395
+msgid "Search Bar Text"
+msgstr "Suchleisten-Text"
+
+#: includes/classes/classes-settings-api.php:403
+msgid "Search button background"
+msgstr "Suchbutton-Hintergrund"
+
+#: includes/classes/classes-settings-api.php:412
+msgid "Search button color"
+msgstr "Suchbutton-Farbe"
+
+#: includes/classes/classes-settings-api.php:422
+msgid "Settings for search search results. "
+msgstr "Einstellungen für Suchergebnisse: "
+
+#: includes/classes/classes-settings-api.php:427
+msgid "Results Container background"
+msgstr "Container-Hintergrund der Ergebnisse"
+
+#: includes/classes/classes-settings-api.php:379
+#: includes/classes/classes-settings-api.php:388
+#: includes/classes/classes-settings-api.php:396
+#: includes/classes/classes-settings-api.php:404
+#: includes/classes/classes-settings-api.php:413
+#: includes/classes/classes-settings-api.php:428
+#: includes/classes/classes-settings-api.php:437
+#: includes/classes/classes-settings-api.php:446
+#: includes/classes/classes-settings-api.php:455
+#: includes/classes/classes-settings-api.php:463
+#: includes/classes/classes-settings-api.php:471
+#: includes/classes/classes-settings-api.php:480
+#: includes/classes/classes-settings-api.php:489
+#: includes/classes/classes-settings-api.php:497
+#: includes/classes/classes-settings-api.php:506
+msgid "The plugins comes with unlimited color schemes for your theme's styling."
+msgstr "Das Plugin bietet unbegrenzt viele Farbschemas, um dein Theme zu gestalten."
+
+#: includes/classes/classes-settings-api.php:436
+msgid "Results Container border"
+msgstr "Container-Rahmen der Ergebnisse"
+
+#: includes/classes/classes-settings-api.php:445
+msgid "Results each row hover background"
+msgstr "Hover-Hintergrund für jede Zeile der Ergebnisse"
+
+#: includes/classes/classes-settings-api.php:454
+msgid "Results Title Color"
+msgstr "Titel-Farbe der Ergebnisse"
+
+#: includes/classes/classes-settings-api.php:462
+msgid "Price Color"
+msgstr "Preis-Farbe"
+
+#: includes/classes/classes-settings-api.php:470
+msgid "Results Text Color"
+msgstr "Text-Farbe der Ergebnisse"
+
+#: includes/classes/classes-settings-api.php:479
+msgid "Results Category Color"
+msgstr "Kategorie-Farbe der Ergebnisse"
+
+#: includes/classes/classes-settings-api.php:488
+msgid "Results Stock Color"
+msgstr "Lagerbestands-Farbe der Ergebnisse"
+
+#: includes/classes/classes-settings-api.php:496
+msgid "On Sale background"
+msgstr "Hintergrund für „Im Angebot“"
+
+#: includes/classes/classes-settings-api.php:505
+msgid "Featured Product background"
+msgstr "Hintergrund des hervorgehobenen Produkts"
+
+#: includes/classes/classes-search.php:124
+msgid "Sale!"
+msgstr "Angebot!"
+
+#: includes/classes/classes-search.php:381
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: includes/classes/widgets.php:93
+msgid "+ Advanced Product Search"
+msgstr "+ Advanced Product Search"
+
+#: includes/classes/widgets.php:114
+msgid "Advanced Product Search – powerful live search plugin for WooCommerce"
+msgstr "Advanced Product Search – leistungsstarkes Live-Such-Plugin für WooCommerce"
+
+#: includes/classes/widgets.php:161
+msgid "Title :"
+msgstr "Titel:"
+
+#: includes/classes/widgets.php:162
+msgid "Advance Search "
+msgstr "Erweiterte Suche "
+
+#: includes/classes/widgets.php:168
+msgid "Search Bar:"
+msgstr "Suchleiste:"
+
+#: includes/classes/widgets.php:170
+msgid "Style 1"
+msgstr "Stil 1"
+
+#: includes/classes/widgets.php:171
+msgid "Style 2"
+msgstr "Stil 2"
+
+#: includes/classes/widgets.php:172
+msgid "Style 3"
+msgstr "Stil 3"
+
+#: includes/classes/widgets.php:173
+msgid "Style 4"
+msgstr "Stil 4"
+
+#: includes/classes/widgets.php:174
+msgid "Style 5"
+msgstr "Stil 5"
+
+#: includes/classes/widgets.php:175
+msgid "Style 6"
+msgstr "Stil 6"
+
+#: includes/aspw-helper-functions.php:261
+msgid "Search here..."
+msgstr "Suche hier ..."
+
+#: includes/aspw-helper-functions.php:262
+msgid "Search "
+msgstr "Suchen "
+
+#: includes/aspw-helper-functions.php:277
+msgid "No products were found !"
+msgstr "Es wurden keine Produkte gefunden!"
+
+#: includes/aspw-helper-functions.php:278
+msgid "No products were found matching your selection category !"
+msgstr "Es wurden keine Produkte zu deiner ausgewählten Kategorie gefunden!"
+
+#: includes/aspw-helper-functions.php:279
+msgid "View All"
+msgstr "Alle anzeigen"
+
+#: advanced-product-search-for-woo.php:214
+msgid "Working..."
+msgstr "Wird ausgeführt ..."
+
+#: advanced-product-search-for-woo.php:276
+msgid "Thank you for installing Advanced Product Search For WooCommerce"
+msgstr "Vielen Dank für die Installation von Advanced Product Search For WooCommerce"
+
+#: advanced-product-search-for-woo.php:277
+msgid "Get started "
+msgstr "Erste Schritte "
+
+#: lib/predic-widget/predic-widget.php:27
+msgid "Framework Predic_Widget already exists. Please check if those are the same framework versions for campatibility."
+msgstr "Das Framework Predic_Widget existiert bereits. Bitte prüfe zwecks Kompatibilität, ob es sich dabei um die gleichen Framework-Versionen handelt."
+
+#: lib/predic-widget/class/class-predic-widget-factory.php:151
+msgid "Some description for example widget."
+msgstr "Eine Beschreibung für ein Beispiel-Widget."
+
+#: lib/predic-widget/class/class-predic-widget-factory.php:189
+msgid "Please provide setup param: callback."
+msgstr "Bitte gib die Setup-Parameter an: Callback."
+
+#: lib/predic-widget/class/class-predic-widget-factory.php:194
+#: lib/predic-widget/class/class-predic-widget-factory.php:235
+msgid "Please provide setup params: id and name."
+msgstr "Bitte gib die Setup-Parameter an: ID und Name."
+
+#: lib/predic-widget/class/class-predic-widget-factory.php:284
+msgid "You should not use numbers as widget admin form field id. Id provided is: %d."
+msgstr "Du solltest keine Zahlen als Formularfeld-ID des Admin-Widgets verwenden. Die angegebene ID ist: %d."
+
+#: lib/predic-widget/class/class-predic-widget-factory.php:300
+#: lib/predic-widget/class/class-predic-widget-factory.php:454
+msgid "File %s does not exists."
+msgstr "Die Datei %s existiert nicht."
+
+#: lib/predic-widget/class/class-predic-widget-factory.php:328
+msgid "%s class must extend abstract class Predic_Widget_Form_Field"
+msgstr "Die Klasse %s muss die abstrakte Klasse Predic_Widget_Form_Field erweitern"
+
+#: lib/predic-widget/class/fields/class-predic-widget-image-uploader-field.php:130
+msgid "Select"
+msgstr "Auswählen"
+
+#: lib/predic-widget/class/fields/class-predic-widget-image-uploader-field.php:132
+#: lib/predic-widget/class/fields/class-predic-widget-fa-iconpicker-field.php:150
+msgid "Clear"
+msgstr "Leeren"
+
+#: lib/predic-widget/class/fields/class-predic-widget-image-uploader-field.php:136
+#: lib/predic-widget/class/fields/class-predic-widget-fa-iconpicker-field.php:156
+msgid "Default"
+msgstr "Standard"
+
+#: lib/predic-widget/class/fields/class-predic-widget-image-uploader-field.php:162
+msgid "Upload or select image"
+msgstr "Bild hochladen oder auswählen"
+
+#: lib/predic-widget/class/fields/class-predic-widget-image-uploader-field.php:163
+msgid "Select image"
+msgstr "Bild auswählen"
+
+#: lib/predic-widget/class/fields/class-predic-widget-fa-iconpicker-field.php:140
+msgid "Search icons"
+msgstr "Icons durchsuchen"

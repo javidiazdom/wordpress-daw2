@@ -1,0 +1,336 @@
+# Translation of Plugins - WP Dark Mode - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP Dark Mode - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-25 06:17:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP Dark Mode - Stable (latest release)\n"
+
+#: includes/admin/class-settings.php:397
+msgid "Customize the darkmode switch icon in the dark & light mode."
+msgstr "Personaliza el icono del conmutador de Dark Mode en el modo oscuro y claro"
+
+#: includes/admin/class-settings.php:404
+msgid "Switch Icon in the light mode."
+msgstr "Icono del conmutador en el modo claro."
+
+#: includes/admin/class-settings.php:410
+msgid "Switch Icon (Dark)"
+msgstr "Icono del conmutador (Oscuro)"
+
+#: includes/admin/class-settings.php:411
+msgid "Switch Icon in the dark mode."
+msgstr "Icono del conmutador en el modo oscuro."
+
+#: includes/admin/class-settings.php:396
+msgid "Custom Switch Icon"
+msgstr "Icono personalizado del conmutador"
+
+#: includes/admin/class-settings.php:403
+msgid "Switch Icon (Light)"
+msgstr "Icono del conmutador (Claro)"
+
+#: includes/admin/class-settings.php:380
+msgid "Display Switch in Menu"
+msgstr "Mostrar el conmutador en el menú"
+
+#: includes/admin/class-settings.php:381
+msgid "Display the darkmode switch in the menu."
+msgstr "Mostrar el conmutador de Dark Mode en el menú"
+
+#: includes/admin/class-settings.php:389
+msgid "Select the menu(s) in which you want to display the darkmode switch."
+msgstr "Selecciona los menús en los que quieres mostrar el conmutador de Dark Mode."
+
+#: includes/admin/class-settings.php:388
+msgid "Select Menu(s)"
+msgstr "Seleccionar los menús"
+
+#: includes/admin/class-settings.php:418
+msgid "Custom Switch Text"
+msgstr "Texto personalizado del conmutador"
+
+#: includes/admin/class-settings.php:419
+msgid "Customize the darkmode switch text."
+msgstr "Personaliza el texto del conmutador de Dark Mode."
+
+#: includes/admin/class-settings.php:435
+msgid "Floating switch dark text."
+msgstr "Conmutador flotante de texto oscuro."
+
+#: includes/admin/class-settings.php:434
+msgid "Switch Text (Dark)"
+msgstr "Texto del conmutador (Oscuro)"
+
+#: includes/admin/class-settings.php:427
+msgid "Floating switch light text."
+msgstr "Texto flotante del conmutador claro."
+
+#: includes/admin/class-settings.php:426
+msgid "Switch Text (Light)"
+msgstr "Texto del conmutador (Claro)"
+
+#: includes/admin/class-settings.php:149
+msgid "Turn ON to enable the darkmode in the frontend."
+msgstr "Enciéndelo para activar el modo oscuro en la vista pública."
+
+#: includes/admin/class-settings.php:148
+msgid "Enable Frontend Darkmode"
+msgstr "Activar el modo oscuro en la vista pública"
+
+#: includes/admin/class-settings.php:263
+msgid "Select the pages to disable darkmode on the selected pages."
+msgstr "Selecciona las páginas donde quieres desactivar el modo oscuro."
+
+#: includes/admin/class-settings.php:262
+msgid "Exclude Pages"
+msgstr "Excluir páginas"
+
+#: includes/admin/class-settings.php:157
+msgid "Enable the backend darkmode to display a darkmode switch button in the admin bar for the admins on the backend."
+msgstr "Activa el modo oscuro en el escritorio para mostrar un botón conmutador de modo oscuro en la barra de administración para los administradores en el escritorio."
+
+#: includes/admin/class-settings.php:156
+msgid "Enable Backend Darkmode"
+msgstr "Activar el modo oscuro en el escritorio"
+
+#: includes/admin/class-settings.php:134
+msgid "%s <span>Custom CSS</span>"
+msgstr "%s <span>CSS personalizado</span>"
+
+#: includes/admin/class-settings.php:127
+msgid "%s <span>Image Settings</span>"
+msgstr "%s <span>Ajustes de imagen</span>"
+
+#: templates/admin/license-notice.php:9
+msgid " to function properly."
+msgstr " para funcionar correctamente."
+
+#: templates/admin/license-notice.php:9
+msgid "Activate the license for "
+msgstr "Activa la licencia de "
+
+#: templates/admin/license-notice.php:7
+msgid "Version"
+msgstr "Versión"
+
+#: templates/admin/license-notice.php:7 templates/admin/license-notice.php:14
+msgid "Activate License"
+msgstr "Activar la licencia"
+
+#: includes/base.php:208
+msgid "GET PRO"
+msgstr "Obtén la versión PRO"
+
+#: includes/admin/class-settings.php:168
+msgid "Dark Mode has been activated in the frontend. Now, your users will be served a dark mode of your website when their device preference is set to Dark Mode or by switching the darkmode switch button."
+msgstr "El modo oscuro se ha activado en la vista pública. Ahora, tus usuarios recibirán un modo oscuro de tu web cuando la preferencia de su dispositivo esté configurada en «Modo oscuro» o al conmutar el botón de modo oscuro."
+
+#: includes/admin/class-settings.php:167
+msgid "Enable OS aware Dark Mode"
+msgstr "Activar el modo oscuro basado en el sistema operativo"
+
+#: includes/admin/class-settings.php:251
+msgid "Excludes Elements"
+msgstr "Excluir elementos"
+
+#. Description of the plugin
+msgid "WP Dark Mode automatically enables a stunning dark mode of your website based on user's operating system. Supports macOS, Windows, Android & iOS."
+msgstr "WP Dark Mode actica automáticamente un impresionante modo oscuro de tu web según el sistema operativo del usuario. Es compatible con macOS, Windows, Android y iOS."
+
+#: includes/admin/class-settings.php:548
+msgid "Select the links color when the dark mode is on."
+msgstr "Selecciona el color de los enlaces cuando el modo oscuro esté activado."
+
+#: includes/admin/class-settings.php:547
+msgid "Darkmode Links Color"
+msgstr "Color de los enlaces en el modo oscuro"
+
+#: includes/admin/class-settings.php:541
+msgid "Select the text color when the dark mode is on."
+msgstr "Selecciona el color del texto cuando el modo oscuro esté activado."
+
+#: includes/admin/class-settings.php:540
+msgid "Darkmode Text Color"
+msgstr "Color del texto en el modo oscuro"
+
+#: includes/admin/class-settings.php:534
+msgid "Select the background color when the dark mode is on."
+msgstr "Selecciona el color de fondo cuando el modo oscuro esté activado."
+
+#: includes/admin/class-settings.php:533
+msgid "Darkmode Background Color"
+msgstr "Color del fondo en el modo oscuro"
+
+#: includes/admin/class-settings.php:527
+msgid "Customize the darkmode background, text and link colors."
+msgstr "Personaliza los colores del fondo, del texto y el enlace en el modo oscuro."
+
+#: includes/admin/class-settings.php:505
+msgid "Select the predefined darkmode background, text and link preset color."
+msgstr "Selecciona el fondo predefinido del modo oscuro, el texto y el color preestablecido del enlace."
+
+#: includes/admin/class-settings.php:504
+msgid "Darkmode Color Preset:"
+msgstr "Preajustes de color del modo oscuro:"
+
+#: includes/admin/class-settings.php:451
+msgid "Show the dark mode switcher button above of all the pages."
+msgstr "Muestra el botón conmutador de modo oscuro encima de todas las páginas."
+
+#: includes/admin/class-settings.php:450
+msgid "Show Above Pages"
+msgstr "Mostrar encima de las páginas"
+
+#: includes/admin/class-settings.php:443
+msgid "Show the dark mode switcher button above of all the post."
+msgstr "Muestra el botón conmutador de modo oscuro encima de todas las entradas."
+
+#: includes/admin/class-settings.php:442
+msgid "Show Above Posts"
+msgstr "Mostrar encima de las entradas"
+
+#: includes/admin/class-settings.php:312
+msgid "Right Bottom"
+msgstr "Derecha abajo"
+
+#: includes/admin/class-settings.php:311
+msgid "Left Bottom"
+msgstr "Izquierda abajo"
+
+#: includes/admin/class-settings.php:305
+msgid "Floating Switch Position"
+msgstr "Posición flotante del conmutador"
+
+#: includes/admin/class-settings.php:281
+msgid "Select the switcher button style for the frontend."
+msgstr "Selecciona el estilo del botón conmutador en la vista pública."
+
+#: includes/admin/class-settings.php:280
+msgid "Floating Switch Style"
+msgstr "Estilo del conmutador flotante"
+
+#: includes/admin/class-settings.php:273
+msgid "Show the floating dark mode switcher button on the frontend for the users."
+msgstr "Muestra el botón conmutador de modo oscuro flotante en la vista pública para los usuarios."
+
+#: includes/admin/class-settings.php:272
+msgid "Show Floating Switch"
+msgstr "Mostrar el conmutador flotante"
+
+#: includes/admin/class-settings.php:211
+msgid "Time to end Dark mode."
+msgstr "Hora en la que finaliza el modo oscuro."
+
+#: includes/admin/class-settings.php:210
+msgid "Dark Mode End Time"
+msgstr "Hora de finalización del modo oscuro"
+
+#: includes/admin/class-settings.php:202
+msgid "Time to start Dark mode."
+msgstr "Hora en la que inicia el modo oscuro."
+
+#: includes/admin/class-settings.php:201
+msgid "Dark Mode Start Time"
+msgstr "Hora de inicio del modo oscuro"
+
+#: includes/admin/class-settings.php:194
+msgid "Automatically turn on the dark mode between a given time range."
+msgstr "Activa automáticamente el modo oscuro entre un rango de tiempo determinado."
+
+#: includes/admin/class-settings.php:193
+msgid "Time Based Dark Mode"
+msgstr "Modo oscuro basado en tiempo"
+
+#: includes/admin/class-settings.php:91
+msgid "%s <span>Advanced Settings</span>"
+msgstr "%s <span>Ajustes avanzados</span>"
+
+#: includes/admin/class-settings.php:667
+#: elementor/class-elementor-widget.php:137
+msgid "Right"
+msgstr "Derecha"
+
+#: elementor/class-elementor-widget.php:133
+msgid "Center"
+msgstr "Centro"
+
+#: includes/admin/class-settings.php:661
+#: elementor/class-elementor-widget.php:129
+msgid "Left"
+msgstr "Izquierda"
+
+#: elementor/class-elementor-widget.php:48 block/build/index.js:1085
+msgid "Switch Style"
+msgstr "Estilo del conmutador"
+
+#: elementor/class-elementor-widget.php:41
+msgid "Layout"
+msgstr "Diseño"
+
+#: elementor/class-elementor-widget.php:33
+#: elementor/class-elementor-widget.php:125
+msgid "Alignment"
+msgstr "Alineación"
+
+#: elementor/class-elementor-widget.php:15 block/build/index.js:2019
+msgid "Dark Mode Switch"
+msgstr "Conmutador del modo oscuro"
+
+#. Plugin URI of the plugin
+msgid "https://wppool.dev/wp-dark-mode"
+msgstr "https://wppool.dev/wp-dark-mode"
+
+#: includes/base.php:202
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/base.php:79
+msgid "Unsupported PHP version Min required PHP Version: \"%s\""
+msgstr "La versión de PHP no es compatible con la versión de PHP mínima necesaria: «%s»"
+
+#: plugin.php:17
+msgid "You can't access this page"
+msgstr "No puedes acceder a esta página"
+
+#: includes/admin/class-settings-api.php:448
+msgid "Choose File"
+msgstr "Elegir archivo"
+
+#: includes/admin/class-settings.php:852
+msgid "WP Dark Mode Settings"
+msgstr "Ajustes de WP Dark Mode"
+
+#: includes/admin/class-settings.php:84
+msgid "%s <span>General Settings</span>"
+msgstr "%s <span>Ajustes generales</span>"
+
+#. Author URI of the plugin
+msgid "http://wppool.dev"
+msgstr "http://wppool.dev"
+
+#. Author of the plugin
+msgid "WPPOOL"
+msgstr "WPPOOL"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-settings.php:840
+msgid "WP Dark Mode"
+msgstr "WP Dark Mode"
+
+#: includes/admin/class-settings.php:252
+msgid "Add comma separated CSS selectors (classes, ids) to ignore the darkmode. ex: .class1, #hero-area"
+msgstr "Añade selectores CSS separados por coma (clases, ID) para ignorar el modo oscuro. Ejemplo: .class1, #hero-area"
+
+#: includes/admin/class-settings.php:112
+msgid "%s <span>Switch Settings</span>"
+msgstr "%s <span>Cambiar los ajustes</span>"
+
+#: includes/admin/class-settings.php:98
+msgid "%s <span>Color Settings</span>"
+msgstr "%s <span>Ajustes del color</span>"

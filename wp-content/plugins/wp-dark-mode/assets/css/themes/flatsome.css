@@ -1,0 +1,13 @@
+html.wp-dark-mode-active .section-title b {
+  background: var(--wp-dark-mode-text) !important; }
+
+html.wp-dark-mode-active .banner-inner, html.wp-dark-mode-active .lightbox-content, html.wp-dark-mode-active .payment-icon {
+  border: 1px solid; }
+
+html.wp-dark-mode-active .is-divider {
+  background: var(--wp-dark-mode-text) !important; }
+
+html.wp-dark-mode-active .price .amount {
+  color: var(--wp-dark-mode-text) !important; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRoZW1lcy9mbGF0c29tZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUksK0NBQStDLEVBQUE7O0FBRm5EO0VBTUksaUJBQWlCLEVBQUE7O0FBTnJCO0VBVUksK0NBQStDLEVBQUE7O0FBVm5EO0VBY0ksMENBQTBDLEVBQUEiLCJmaWxlIjoidGhlbWVzL2ZsYXRzb21lLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwud3AtZGFyay1tb2RlLWFjdGl2ZSB7XHJcbiAgLnNlY3Rpb24tdGl0bGUgYntcclxuICAgIGJhY2tncm91bmQ6IHZhcigtLXdwLWRhcmstbW9kZS10ZXh0KSAhaW1wb3J0YW50O1xyXG4gIH1cclxuXHJcbiAgLmJhbm5lci1pbm5lciwgLmxpZ2h0Ym94LWNvbnRlbnQsIC5wYXltZW50LWljb257XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZDtcclxuICB9XHJcblxyXG4gIC5pcy1kaXZpZGVye1xyXG4gICAgYmFja2dyb3VuZDogdmFyKC0td3AtZGFyay1tb2RlLXRleHQpICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICAucHJpY2UgLmFtb3VudHtcclxuICAgIGNvbG9yOiB2YXIoLS13cC1kYXJrLW1vZGUtdGV4dCkgIWltcG9ydGFudDtcclxuICB9XHJcblxyXG5cclxufSJdfQ== */
