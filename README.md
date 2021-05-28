@@ -4,7 +4,7 @@ Esto es un proyecto para la asignatura DAW2, ULPGC.
 
 ## Descripción
 
-El proyecto ha sido desarrollado haciendo uso del CMS Wordpress, utilizando diferentes plugins que han dotado a la web de diferentes funcionadlidades, entre ellas una tienda online o la posibilidad de incluir calendarios de eventos. 
+El proyecto ha sido desarrollado haciendo uso del CMS Wordpress, utilizando diferentes plugins que han dotado a la web de diferentes funcionalidades, entre ellas una tienda online o la posibilidad de incluir calendarios de eventos. 
 
 ## Propósito de la web
 
